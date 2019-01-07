@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B53574C21E1005800346908 /* task.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B53574B21E1005800346908 /* task.strings */; };
 		4B6D480221DDC9A700600FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D480121DDC9A700600FDE /* AppDelegate.swift */; };
 		4B6D480421DDC9A700600FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D480321DDC9A700600FDE /* ViewController.swift */; };
 		4B6D480721DDC9A700600FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D480521DDC9A700600FDE /* Main.storyboard */; };
 		4B6D480921DDC9AC00600FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D480821DDC9AC00600FDE /* Assets.xcassets */; };
 		4B6D480C21DDC9AC00600FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D480A21DDC9AC00600FDE /* LaunchScreen.storyboard */; };
+		4B6D481421DDC9C600600FDE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D481321DDC9C600600FDE /* Card.swift */; };
+		4B6D481621DDCADB00600FDE /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D481521DDCADB00600FDE /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B53574B21E1005800346908 /* task.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = task.strings; sourceTree = "<group>"; };
 		4B6D47FE21DDC9A700600FDE /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6D480121DDC9A700600FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B6D480321DDC9A700600FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		4B6D480821DDC9AC00600FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6D480B21DDC9AC00600FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B6D480D21DDC9AC00600FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6D481321DDC9C600600FDE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4B6D481521DDCADB00600FDE /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				4B6D480121DDC9A700600FDE /* AppDelegate.swift */,
 				4B6D480321DDC9A700600FDE /* ViewController.swift */,
 				4B6D480521DDC9A700600FDE /* Main.storyboard */,
+				4B6D481321DDC9C600600FDE /* Card.swift */,
+				4B6D481521DDCADB00600FDE /* Deck.swift */,
+				4B53574B21E1005800346908 /* task.strings */,
 				4B6D480821DDC9AC00600FDE /* Assets.xcassets */,
 				4B6D480A21DDC9AC00600FDE /* LaunchScreen.storyboard */,
 				4B6D480D21DDC9AC00600FDE /* Info.plist */,
@@ -125,6 +134,7 @@
 				4B6D480C21DDC9AC00600FDE /* LaunchScreen.storyboard in Resources */,
 				4B6D480921DDC9AC00600FDE /* Assets.xcassets in Resources */,
 				4B6D480721DDC9A700600FDE /* Main.storyboard in Resources */,
+				4B53574C21E1005800346908 /* task.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6D481621DDCADB00600FDE /* Deck.swift in Sources */,
 				4B6D480421DDC9A700600FDE /* ViewController.swift in Sources */,
+				4B6D481421DDC9C600600FDE /* Card.swift in Sources */,
 				4B6D480221DDC9A700600FDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
