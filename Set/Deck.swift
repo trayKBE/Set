@@ -17,9 +17,11 @@ class Deck{
     var isDealEnable = true
     
     var faceUpIndex:Int {
-        get {
-            return cards.filter{$0.isFaceUp}.count
-        }
+        return cards.filter{$0.isFaceUp}.count
+    
+    }
+    var selectedCards:[Card]{
+        return cards.filter{$0.isSelected}
     }
 
     init() {
@@ -43,7 +45,7 @@ class Deck{
     func selectCard(at faceUpIndex:Int){
         let cardIndex = faceUpCardIndex[faceUpIndex]
         if cardIndex != nil {
-            let selectedCards = cards.filter{$0.isSelected}
+//            let selectedCards = cards.filter{$0.isSelected}
             if selectedCards.count == 3 {
                 if checkSelectedResult() {
                     replaceCard()
@@ -69,8 +71,8 @@ class Deck{
 
     func checkSelectedResult() -> Bool{
         
-        let checkCards = cards.filter{$0.isSelected}
-        return checkSetResult(checkCards: checkCards)
+//        let checkCards = cards.filter{$0.isSelected}
+        return checkSetResult(checkCards: selectedCards)
      
     }
     
@@ -137,6 +139,7 @@ class Deck{
         if checkCards.count != 3 {
             return false
         }
+        
         var numberCount = 0
         var colorCount = 0
         var shadingCount = 0

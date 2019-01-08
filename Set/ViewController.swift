@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         }
     }
     var cardNumbers = [0,1,2]
-    var cardColors = [UIColor.green, UIColor.purple,UIColor.red]
+    var cardColors = [UIColor.green, UIColor.brown,UIColor.red]
     var cardShadings = ["▲","●","■"]
     var cardStripings:[(lineWidth:Int,alphaComponent:CGFloat)] = [(-1,CGFloat(0.15)), (-1,CGFloat(1)), (15,CGFloat(1))]
     
