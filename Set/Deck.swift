@@ -20,6 +20,8 @@ class Deck{
         return cards.filter{$0.isFaceUp}.count
     
     }
+    
+    
     var selectedCards:[Card]{
         return cards.filter{$0.isSelected}
     }
