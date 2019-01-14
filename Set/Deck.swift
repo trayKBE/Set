@@ -23,6 +23,8 @@ class Deck{
     var selectedCards:[Card]{
         return cards.filter{$0.isSelected}
     }
+    
+    
 
     init() {
         for numberIndex in 0..<propertyNumber{
