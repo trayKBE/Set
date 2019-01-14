@@ -137,10 +137,13 @@ class ViewController: UIViewController {
             .foregroundColor:cardColors[card.color].withAlphaComponent(cardStripings[card.striping].alphaComponent)
             
         ]
+        
+        
         var cardString = ""
         for _ in 0...cardNumbers[card.number]{
             cardString.append(cardShadings[card.shading])
         }
+        
         let attributeString = NSAttributedString(string: cardString, attributes: attributeKey)
         cardButton.setAttributedTitle(attributeString, for: UIControl.State.normal)
         
